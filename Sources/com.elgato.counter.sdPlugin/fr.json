@@ -1,0 +1,8 @@
+{
+  "Description": "Le compteur vous permet d’afficher le nombre de frappes sur la touche.", 
+  "Name": "Compteur", 
+  "com.elgato.counter.action": {
+    "Name": "Compteur", 
+    "Tooltip": "Combien de fois vous êtes-vous fait pwnded aujourd’hui ? Pour le savoir, utilisez ce compteur."
+  }
+}

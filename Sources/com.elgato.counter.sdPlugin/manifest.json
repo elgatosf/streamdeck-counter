@@ -1,0 +1,35 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon", 
+      "Name": "Counter", 
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "UUID": "com.elgato.counter.action"
+    }
+  ], 
+  "Author": "Elgato", 
+  "CodePath": "code.html", 
+  "Description": "This lets you display the number of times you pressed on the key.", 
+  "Name": "Counter", 
+  "Icon": "pluginIcon", 
+  "URL": "https://www.elgato.com/gaming/stream-deck", 
+  "Version": "1.2",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ]
+}
