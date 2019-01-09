@@ -6,12 +6,15 @@
 
 `Counter` is a simple plugin that displays the number of times a key is pressed. Pressing the key will increase the counter.
 
-Features:
+
+# Features
 
 - code written in Javascript
 - cross-platform (macOS, Windows)
 - persistent settings (number of times the key was pressed)
 - localized
+
+![](screenshot.png)
 
 
 # Installation
