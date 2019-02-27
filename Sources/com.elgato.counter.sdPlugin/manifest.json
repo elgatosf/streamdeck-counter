@@ -15,6 +15,7 @@
       "UUID": "com.elgato.counter.action"
     }
   ], 
+  "SDKVersion": 2,
   "Author": "Elgato", 
   "CodePath": "code.html", 
   "Description": "This lets you display the number of times you pressed on the key.", 
@@ -31,5 +32,9 @@
         "Platform": "windows", 
         "MinimumVersion" : "10"
     }
-  ]
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
 }
