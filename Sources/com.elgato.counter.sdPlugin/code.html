@@ -14,15 +14,27 @@
     	
     	var DestinationEnum = Object.freeze({"HARDWARE_AND_SOFTWARE":0, "HARDWARE_ONLY":1, "SOFTWARE_ONLY":2})
     	
+        var timer;
+        
     	var counterAction = {
 			
 			type : "com.elgato.counter.action",
 			
 			onKeyDown : function(context, settings, coordinates, userDesiredState) {
+                
+              timer = setTimeout(function () {
+                 var updatedSettings = {};
+                 updatedSettings["keyPressCounter"] = -1;
+               
+                 counterAction.SetSettings(context, updatedSettings);
+                 counterAction.SetTitle(context, 0);
+               },1500);
 			},
 			
 			onKeyUp : function(context, settings, coordinates, userDesiredState) {
 				
+                clearTimeout(timer);
+                
 				var keyPressCounter = 0;
 				if(settings != null && settings.hasOwnProperty('keyPressCounter')){
 					keyPressCounter = settings["keyPressCounter"];
