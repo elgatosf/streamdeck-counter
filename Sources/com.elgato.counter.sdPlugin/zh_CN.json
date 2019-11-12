@@ -1,5 +1,5 @@
 {
-  "Description": "这样可让您显示按下按键的次数。", 
+  "Description": "跟踪您按键的次数。", 
   "Name": "计数器", 
   "com.elgato.counter.action": {
     "Name": "计数器", 

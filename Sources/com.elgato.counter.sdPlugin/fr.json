@@ -1,5 +1,5 @@
 {
-  "Description": "Le compteur vous permet d’afficher le nombre de frappes sur la touche.", 
+  "Description": "Comptabilisez le nombre de pressions sur une touche.", 
   "Name": "Compteur", 
   "com.elgato.counter.action": {
     "Name": "Compteur", 

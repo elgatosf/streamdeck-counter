@@ -1,5 +1,5 @@
 {
-  "Description": "Permite mostrar el número de veces que has pulsado la tecla.", 
+  "Description": "Registra el número de veces que pulsas una tecla.", 
   "Name": "Contador", 
   "com.elgato.counter.action": {
     "Name": "Contador", 

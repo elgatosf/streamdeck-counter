@@ -1,5 +1,5 @@
 {
-  "Description": "キーを何回押したかを表示します。", 
+  "Description": "キーを押す回数を記録。", 
   "Name": "カウンタ", 
   "com.elgato.counter.action": {
     "Name": "カウンタ", 

@@ -1,5 +1,5 @@
 {
-  "Description": "This lets you display the number of times you pressed on the key.", 
+  "Description": "Track the number of times you press a key.", 
   "Name": "Counter", 
   "com.elgato.counter.action": {
     "Name": "Counter", 
