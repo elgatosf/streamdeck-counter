@@ -21,6 +21,7 @@
 
 In the Release folder, you can find the file `com.elgato.counter.streamDeckPlugin`. If you double-click this file on your machine, Stream Deck will install the plugin.
 
+To see the counter, you need to have the title active for that button.
 
 # Source code
 
